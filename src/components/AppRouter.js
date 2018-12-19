@@ -12,12 +12,10 @@ class AppRouter extends Component {
     return (
       <BrowserRouter>
         <div className="container-fluid">
+          <Header />
           {/* <div className="row"> */}
-            <Header />
-          {/* </div> */}
-          <div className="row">
-            <div className="col"></div>
-            <div className="col-xs-11 col-md-8">
+            {/* <div className="col"></div> */}
+            {/* <div className="col-10"> */}
               <Switch>
                 <Route path="/" component={HomePage} exact></Route>
                 <Route path="/project" component={ProjectPage}></Route>
@@ -25,9 +23,9 @@ class AppRouter extends Component {
                 <Route path="/result" component={ResultPage}></Route>            
                 <Route path="/contact" component={ContactPage}></Route>            
               </Switch>
-            </div>
-            <div className="col"></div>
-          </div>
+            {/* </div> */}
+            {/* <div className="col"></div> */}
+          {/* </div> */}
         </div>
       </BrowserRouter>
     );

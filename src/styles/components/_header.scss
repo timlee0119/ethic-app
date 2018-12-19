@@ -1,13 +1,25 @@
 .header {
-  @extend .py-4;
-  background-color: rgba($color: (chocolate), $alpha: 0.2);
-}
-
-.header--yellow {
-  @extend .header;
-  background-color: rgba($color: (white), $alpha: 0);
+  @extend .py-4, .row, .d-flex, .justify-content-around;
+  background-color: rgba($color: (#ffab00), $alpha: 0.2);
 }
 
 .header__element {
-  @extend .col-2, .px-2, .my-auto;
+  @extend .col-2, .d-flex, .align-items-center, .justify-content-center;
+  border: solid $lighter-brown;
+  border-radius: 15px;
+  height: $ml-size;
+
+  color: $light-brown;
+  font-weight: 600;
+}
+
+.header__element:hover {
+  cursor: pointer;
+  background-color: $lighter-brown;
+  color: white;
+  text-decoration: none;
+}
+
+.header__home {
+  color: $light-brown;
 }

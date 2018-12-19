@@ -1,6 +1,5 @@
 import React from 'react';
-import { NavLink, Route } from 'react-router-dom';
-import Header from './Header';
+import { Route } from 'react-router-dom';
 
 const Background = () => (
   <div>

@@ -1,11 +1,31 @@
 // @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 html {
-  // font-size: 62.5%;
-  // font-size: 80%;
+  width:100%;
+  height: 100%;
+  display: table;
 }
 
 body {
-  background-color: $off-yellow;
-  // font-family: "Microsoft JhengHei", "Helvetica", "Arial", "sans-serif";
-  // font-size: $m-size;
+  width:100%;
+  display:table-cell;
 }
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  height: 100%;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  height: 100%;
+}
+
+// body {
+//   background-color: $off-yellow;
+//   font-family: "Microsoft JhengHei", "Helvetica", "Arial", "sans-serif";
+//   font-size: $m-size;
+// }

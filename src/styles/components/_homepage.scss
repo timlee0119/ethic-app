@@ -1,0 +1,23 @@
+.homepage {
+  height: 100%;
+  background-image: url('../img/handshake.png');
+  background-size: cover;
+}
+
+.homepage__box {
+  @extend .my-5;
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  border: solid white thick;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.homepage__textarea {
+  position: relative;
+  text-align: center;
+}
+
+.homepage__textarea > h5 {
+  @extend .mb-3;
+}
