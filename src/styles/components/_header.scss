@@ -1,0 +1,13 @@
+.header {
+  @extend .py-4;
+  background-color: rgba($color: (chocolate), $alpha: 0.2);
+}
+
+.header--yellow {
+  @extend .header;
+  background-color: rgba($color: (white), $alpha: 0);
+}
+
+.header__element {
+  @extend .col-2, .px-2, .my-auto;
+}
