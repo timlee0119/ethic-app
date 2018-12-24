@@ -1,4 +1,3 @@
-// @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 html {
   width:100%;
   height: 100%;
@@ -6,8 +5,9 @@ html {
 }
 
 body {
-  width:100%;
-  display:table-cell;
+  width: 100%;
+  display: table-cell;
+  // font-family: "Microsoft JhengHei", "Helvetica", "Arial", "sans-serif";
 }
 
 html, body {
@@ -24,8 +24,16 @@ html, body {
   height: 100%;
 }
 
-// body {
-//   background-color: $off-yellow;
-//   font-family: "Microsoft JhengHei", "Helvetica", "Arial", "sans-serif";
-//   font-size: $m-size;
-// }
+.page__title {
+  @extend .h1, .text-center, .my-4;
+}
+
+.page__passage {
+  @extend .my-4;
+  text-indent: 2em;
+}
+
+.text--highlight {
+  @extend .font-weight-bold;
+  color: $gold-yellow;
+}

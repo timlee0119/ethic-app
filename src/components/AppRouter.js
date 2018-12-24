@@ -13,19 +13,13 @@ class AppRouter extends Component {
       <BrowserRouter>
         <div className="container-fluid">
           <Header />
-          {/* <div className="row"> */}
-            {/* <div className="col"></div> */}
-            {/* <div className="col-10"> */}
-              <Switch>
-                <Route path="/" component={HomePage} exact></Route>
-                <Route path="/project" component={ProjectPage}></Route>
-                <Route path="/method" component={MethodPage}></Route>
-                <Route path="/result" component={ResultPage}></Route>            
-                <Route path="/contact" component={ContactPage}></Route>            
-              </Switch>
-            {/* </div> */}
-            {/* <div className="col"></div> */}
-          {/* </div> */}
+            <Switch>
+              <Route path="/" component={HomePage} exact></Route>
+              <Route path="/project" component={ProjectPage}></Route>
+              <Route path="/method" component={MethodPage}></Route>
+              <Route path="/result" component={ResultPage}></Route>            
+              <Route path="/contact" component={ContactPage}></Route>            
+            </Switch>
         </div>
       </BrowserRouter>
     );
