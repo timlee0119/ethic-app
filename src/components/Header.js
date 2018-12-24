@@ -12,10 +12,6 @@ const ResultNav = () => (
   </div>
 );
 
-const toggle = () => {
-  const x = document.getElementById("")
-}
-
 const Header = () => (
   <div>
     <div className="header">
