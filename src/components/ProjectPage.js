@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectPage = () => (
-  <div className="projectpage row">
+  <div className="page--light row">
     <div className="col"></div>
     <div className="col-10 col-lg-6">
       <div className="page__title">計劃緣起</div>

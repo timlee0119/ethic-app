@@ -1,20 +1,22 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 export default class Example extends React.Component {
   render() {
     return (
-      <Form>
-        <FormGroup>
-          <Label for="exampleEmail">您的 Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
-        </FormGroup>
-        <FormGroup>
-          <Label for="exampleText">訊息內容</Label>
-          <Input type="textarea" name="text" id="exampleText" />
-        </FormGroup>
-        <Button>Submit</Button>
-      </Form>
+      <div>
+        <form>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">電子郵件地址</label>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+            <small id="emailHelp" className="form-text text-muted">我們不會將此電子郵件地址提供給任何人。</small>
+          </div>
+          <div className="form-group">
+            <label htmlFor="exampleFormControlTextarea1">評論</label>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary float-right">送出</button>
+        </form>
+      </div>
     );
   }
 };

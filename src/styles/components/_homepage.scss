@@ -5,8 +5,8 @@
 }
 
 .homepage__box {
-  @extend .my-5;
-  height: 30vh;
+  @extend .my-5, .p-3;
+  height: calc(#{$xxl-size} * 2);
   width: 100%;
   border: solid white thick;
   box-shadow: 1px 1px 1px 1px;

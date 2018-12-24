@@ -3,18 +3,26 @@
   background-color: rgba($color: (#ffab00), $alpha: 0.2);
 }
 
-.header__element {
-  @extend .col-2, .d-flex, .align-items-center, .justify-content-center;
+.header__btn {
+  @extend .d-flex, .col-2, .px-0, .align-items-center, .justify-content-center;
   border: solid $lighter-brown;
   border-radius: 15px;
+  // width: 10rem;
   height: $ml-size;
 
   color: $light-brown;
   font-weight: 600;
 }
 
-.header__element:hover {
+.header__btn:hover {
   cursor: pointer;
+  background-color: $lighter-brown;
+  color: white;
+  text-decoration: none;
+  top: 3px;
+}
+
+.header__btn--active {
   background-color: $lighter-brown;
   color: white;
   text-decoration: none;

@@ -6,7 +6,7 @@ const HomePage = () => (
   <div className="homepage row">
     <div className="col"></div>
     <div className="col-10 col-lg-6">
-      <div className="homepage__box d-flex flex-column justify-content-around align-items-center">
+      <div className="homepage__box d-flex flex-column justify-content-around align-items-center text-center">
         <h1>道德 Ethics 不道德</h1>
         <h3>以賽局實驗找出促進倫理實踐的因子</h3>
       </div>
