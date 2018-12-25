@@ -2,7 +2,7 @@ import React from 'react';
 import ContactForm from './ContactForm';
 
 const ContactPage = () => (
-  <div className="row">
+  <div className="row mb-5">
     <div className="col"></div>
     <div className="col-10 col-lg-6">
       <div className="page__title">聯絡我們！</div>
