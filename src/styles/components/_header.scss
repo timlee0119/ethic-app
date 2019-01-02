@@ -1,6 +1,10 @@
 .header {
   @extend .py-4, .row, .d-flex, .justify-content-around;
-  background-color: rgba($color: (#ffab00), $alpha: 0.2);
+  background-color: $header-orange;
+}
+.header--nopt {
+  @extend .pb-4, .row, .d-flex, .justify-content-around;
+  background-color: $header-orange;
 }
 
 .header__btn {
@@ -29,6 +33,10 @@
   background-color: $lighter-brown;
   color: white;
   text-decoration: none;
+}
+
+.header__btn--disable {
+  visibility: hidden;
 }
 
 .header__home {
