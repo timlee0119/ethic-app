@@ -1,0 +1,12 @@
+.page__title {
+  @extend .h1, .text-center, .mt-5, .mb-4;
+}
+
+.page__subtitle {
+  @extend .h3, .text-center, .mt-5, .mb-4;
+}
+
+.page__passage {
+  @extend .my-4;
+  text-indent: 2em;
+}
