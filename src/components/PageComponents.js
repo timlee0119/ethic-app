@@ -22,7 +22,7 @@ export const SubTitle = (props) => (
 
 export const Passage = (props) => (
   <div className={
-    `page__passage ${props.bold ? 'font-weight-bold' : null}`
+    `page__passage ${props.bold ? 'font-weight-bold' : ''}`
   }>
     {props.children}
   </div>
