@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 export const GameTable = (props) => {
   const imagePath = props.img;
   return (
-    <div>
-      <img src={imagePath} alt="" style={{width: '100%'}} />
+    <div className="my-3">
+      <img src={imagePath} alt="" style={{width: props.width}} />
     </div>
   );
 };
+GameTable.defaultProps = {
+  width: '100%'
+}
 
 export const Title = (props) => (
   <div className="page__title">{props.children}</div>
