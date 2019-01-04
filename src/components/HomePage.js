@@ -16,7 +16,7 @@ const HomePage = () => (
         <h5>2018年10月</h5>
         <br/>
         <FontAwesomeIcon icon={faUser} size="2x" className="mb-2"/>
-        <h5>計劃主持人</h5>
+        <h5>計畫主持人</h5>
         <h5>劉啟民　教授</h5>
         <h5>建國科技大學通識教育中心</h5>
         <br/>
