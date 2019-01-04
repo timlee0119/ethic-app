@@ -23,4 +23,4 @@ Your app is ready to be deployed!
 or
 ### `npm run prod`
 to start the server.
-The webapp is run on port 3000.
+The webapp runs on port 3000.
